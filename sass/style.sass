@@ -1,0 +1,260 @@
+*
+  box-sizing: border-box
+
+body
+  margin: 0
+  font-family: 'Lato', sans-serif
+  font-style: normal
+
+.header
+  padding: 15px 0
+
+.navigation
+  list-style: none
+  padding: 0
+  margin: 0
+  &_link
+    text-decoration: none
+    font-weight: 900
+    font-size: 14px
+    line-height: 20px
+    color: #939699
+    text-transform: uppercase
+    letter-spacing: 0.5px
+
+.button
+  background: #4592FF
+  border-radius: 20px
+  border: none
+  color: #ffffff
+  padding: 10px 20px
+  font-weight: 900
+  font-size: 14px
+  line-height: 20px
+  display: flex
+  align-items: center
+  cursor: pointer
+  &_price,
+  &_icon
+    margin-right: 10px
+    &:last-child
+      margin-right: 0
+      margin-left: 10px
+
+.slide
+  padding-top: 90px
+  padding-bottom: 110px
+  min-width: 568px
+  &_1
+    background: #B4D1E0 url('../img/slide-image-1.png') no-repeat top right 25%
+  &_2
+    background: #b3b3b3 url('../img/slide-image-1.png') no-repeat top right 25%
+  &_title
+    font-family: 'Roboto Slab', serif
+    font-style: normal
+    font-weight: bold
+    font-size: 55px
+    line-height: 70px
+    display: flex
+    align-items: center
+    color: #262D33
+    margin-top: 20px
+    margin-bottom: 15px
+  &_description
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 30px
+    color: #4B5157
+    max-width: 335px
+    margin-bottom: 40px
+  &_nav
+    z-index: 99
+    position: absolute
+    top: 50%
+    width: 100%
+    transform: translateY(-50%)
+  &_button
+    background-color: transparent
+    border: none
+    cursor: pointer
+.slider
+  position: relative
+
+.label
+  background: #3DC47E
+  border-radius: 3px
+  padding: 5px 12px
+  color: #ffffff
+  font-size: 12px
+  line-height: 15px
+
+.card
+  min-height: 370px
+  border-radius: 10px
+  padding-top: 60px
+  padding-left: 46px
+  padding-right: 46px
+  padding-bottom: 80px
+  &_price
+    color: #ffffff
+    font-family: 'Lato', sans-serif
+    font-style: normal
+    font-weight: 900
+    font-size: 14px
+    line-height: 20px
+  &_title
+    font-family: 'Roboto Slab', sans-serif
+    font-style: normal
+    font-weight: bold
+    font-size: 25px
+    line-height: 30px
+    color: #262D33
+    margin: 0
+    max-width: 222px
+  &_text
+    font-size: 14px
+    line-height: 20px
+    color: #4B5157
+    max-width: 176px
+    margin-bottom: 25px
+  &_1
+    background: #E3E2E3 url('../img/card-1.png') no-repeat top right
+    background-size: cover
+  &_2
+    background: #E3E2E3 url('../img/card-2.png') no-repeat top right
+    background-size: cover
+  &_3
+    background: #CCD5E6 url('../img/card-3.png') no-repeat top right 10%
+    background-size: contain
+    padding-top: 35px
+  &_4
+    background: #FF4F52 url('../img/card-4.png') no-repeat top right
+    background-size: contain
+    padding-top: 35px
+    padding-left: 25px
+  &_goods
+    position: relative
+    text-align: center
+    padding-top: 30px
+    padding-bottom: 35px
+    padding-left: 36px
+    padding-right: 36px
+    &_title
+      margin-top: 15px
+      margin-bottom: 5px
+      font-family: 'Roboto Slab', sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: 16px
+      line-height: 25px
+      text-align: center
+      color: #262D33
+    &_description
+      font-family: 'Lato', sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 14px
+      line-height: 20px
+      color: #4B5157
+      margin-bottom: 30px
+    &_price
+      font-family: Lato
+      font-size: 18px
+      line-height: 30px
+      font-weight: 900
+      color: #262D33
+
+.text-light
+  color: #ffffff
+
+.card_title.large
+  font-size: 40px
+  line-height: 50px
+  max-width: 420px
+  margin-top: 30px
+  margin-bottom: 20px
+
+.card_text.large
+  max-width: 320px
+
+.section
+  &_title
+    font-family: 'Roboto Slab', serif
+    font-size: 25px
+    line-height: 30px
+    color: #262D33
+
+.more
+  text-decoration: none
+  font-size: 14px
+  font-weight: 900
+  line-height: 20px
+  color: #262D33
+  padding: 10px
+
+.card_goods .label
+  position: absolute
+  left: 18px
+  top: 18px
+
+.footer
+  background: #8F79D4
+  padding-top: 45px
+  padding-bottom: 40px
+  color: #fff
+  &_line
+    opacity: 0.5
+  &_text
+    font-size: 14px
+    line-height: 20px
+    color: #E7D9FF
+  &_menu
+    list-style-type: none
+    margin: 0
+    padding: 0
+    &_link
+      color: #fff
+      text-decoration: none
+      font-weight: 900
+      font-size: 14px
+      line-height: 20px
+    &_item:not(:last-child)
+      margin-right: 40px
+  &_social
+    &_link
+      text-decoration: none
+      margin-left: 15px
+
+.top-link
+  text-decoration: none
+  color: #fff
+  font-weight: 900
+  font-size: 14px
+  line-height: 20px
+  &_text
+    margin-right: 15px
+.payment-logo
+  vertical-align: middle
+  margin-right: 25px
+
+@media (max-width: 1200px)
+  .slide_1
+    background-size: cover
+  .card
+    &_3
+      background-size: cover
+
+@media (max-width: 992px)
+  .slide_nav
+    display: none
+@media (max-width: 576px)
+  .slide_title
+    font-size: 36px
+    line-height: 1.4
+  .card
+    background-position: left top
+    padding: 30px
+    min-height: 300px
+    &_4
+      background-position: right top
